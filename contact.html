@@ -102,6 +102,12 @@
         </div>
     )
 
+    const ResultContatos = () => (
+        <div className="mt-6 yellow">
+            <span id="result-contato">We found 23 contacts</span>
+        </div>
+    )
+
     const element = (
 
     <section>
@@ -134,9 +140,7 @@
                         </InfoUsuarioContato>   
                     </ItemContatos>
                 </ListaContatos>
-                <div className="mt-6 yellow">
-                    <span id="result-contato">We found 23 contacts</span>
-                </div>
+                <ResultContatos />
             </CardContatos>
         </div>
     </section>
