@@ -1,0 +1,68 @@
+.yellow{
+    color: #f2Fa5a;
+}
+.light-yellow{
+    color: #f1e1a6;
+}
+.rose {
+    color:#f4bbbb
+}
+
+.bg-yellow{
+    background-color:#f2fa5a ;
+}
+.bg-blue, body {
+    background-color: #4d77ff ;
+}
+
+.lista-contatos {
+    background-color: #56bbf1;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding: 1rem 0;
+
+}
+.flex {
+    display: flex;
+    padding: 3px 20px;
+}
+
+.nome-contato {
+    font-size: 18px;
+}
+
+.job-contato{
+    font-size: 14px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+#result-contato {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.send-button {
+    background-color: #5de6e9;
+    border: 1px solid #f2fa59;
+    border-radius: 12px;
+    padding: 0px 12px;
+    font-size: 14px;
+}
+
+.search-button {
+    border-radius: 48px;
+    color: rgb(118 118 118);
+    font-size: 16px;
+    padding: 3px 48px 3px 48px !important;
+}
+
+#contatos-full {
+    display:flex;
+    flex-direction: row;
+}
+
+.p-6{
+    padding: 1rem 1.5rem;
+}
